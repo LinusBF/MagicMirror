@@ -14,7 +14,7 @@
     "config:check": "node tests/configs/check_config.js",
     "lint": "grunt",
     "update": "cd project-mm && git pull",
-    "update:deploy": "cd project-mm && git pull && cd .. && npm run start"
+    "update:deploy": "cd project-mm && git pull && npm install && cd .. && npm run start"
   },
   "repository": {
     "type": "git",
